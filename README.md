@@ -6,8 +6,8 @@ speed under the threat of instability.
 
 The stability variables I settled on are:
 
-Default height: 0.5
-Height set on click: 5    (setting the height is stable, adding height on mouse-pressed while sampling at ~60 times a second is massively unstable)
-Gravity: 0.03
-Viscosity: 0.2
+Default height: 0.5  
+Height set on click: 5    (setting the height is stable, adding height on mouse-pressed while sampling at ~60 times a second is massively unstable)  
+Gravity: 0.03  
+Viscosity: 0.2  
 TimeStep: elapsedTimeSpan.Ticks / 100000    (elapsedTimeSpan comes out of the gameTime passed into the Update method)
